@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <a href="https://storage.ghost.io/c/31/6d/316dcfd0-2412-4984-884d-d74638310787/content/images/2025/05/Chat-_-Google-AI-Studio.jpeg"
+        target="_blank">Click here for image view</a>
+    <h1>Forms</h1>
+    <div>
+        <form action="https://google.com" target="_blank">
+            <fieldset>
+                <legend>Enter Your Information</legend><br><br>
+                <label for="name"> FULL NAME:-</label>
+                <input type="text" id="name" placeholder="ENTER YOU NAME" required>
+                <br><br>
+
+                <label for="email1">EMAIL ID:</label>
+                <input type="email" id="email1" placeholder="ENTER YOU EMAIL ID" required>
+                <br><br>
+
+                <label for="pass">PASSWORD:</label>
+                <input type="password" id="pass" placeholder="ENTER YOUR PASSWORD" required>
+                <br><br>
+
+                <label for="check">ARE YOU 18+?</label>
+                <input type="checkbox" id="check">
+                <br><br>
+
+                <label for="num">PHONE NUMBER:</label>
+                <input type="number" id="num" placeholder="ENTER YOUR PHINE NUMBER" required min="0">
+                <br><br>
+
+                <label for="male">GENDER: </label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gen">
+                <label for="gend">Female</label>
+                <input type="radio" id="gend" name="gen">
+                <br><br>
+
+                <label for="da">ENTER YOUR DOB:</label>
+                <input type="date" id="da" required>
+                <br><br>
+
+                <label for="files">UPLOAD PHOTO:</label>
+                <input type="file" id="files" required>
+                <br><br>
+
+                <label for="city">SELECT YOUR CITY :</label>
+                <select name="" id="city">
+                    <option value="Delhi">DELHI</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Mumbai" selected>Mumbai</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Tamil Naidu">Tamil Naidu</option>
+                </select>
+                <br><br>
+
+                <button type="submit">Submit Form</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

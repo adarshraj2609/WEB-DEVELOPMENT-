@@ -1,0 +1,48 @@
+#lorem {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 20px;
+    letter-spacing: 3px;
+    color: rgb(225, 228, 220);
+    line-height: 1;
+}
+
+h1 {
+    background-color: transparent;
+    color: rgb(5, 59, 105);
+}
+
+h2 {
+    color: rgb(194, 42, 15);
+}
+
+#lorem {
+    /*background: linear-gradient(to right,rgb(223, 34, 34),blue);
+     background: linear-gradient(45deg,rgb(223, 34, 34),blue,yellow,pink); */
+    /*background: radial-gradient(circle,red,pink,yellow);
+    */
+    background: conic-gradient(rgb(226, 102, 102), rgb(231, 198, 135), skyblue);
+}
+
+#wrapper {
+    height: 600px;
+    background-repeat: no-repeat;
+    /* background-image: url(https://tse1.mm.bing.net/th/id/OIP.0JbZkj5mDd4eiI6qAkUebQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3); */
+    border: 2px solid black;
+    background-size: cover;
+    /* border-radius: 20px;
+    border-top-left-radius:0; */
+    margin: 30px;
+}
+
+h3 {
+    color: rgb(11, 192, 123);
+    /* border: 3px solid greenyellow; */
+    border: 1px dotted rgb(136, 0, 136);
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 40px;
+    /* top/bottom    left/right */
+    text-align: center;
+    box-sizing: border-box;
+}

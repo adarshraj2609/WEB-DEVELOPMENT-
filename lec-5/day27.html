@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 style="color: rgb(168, 37, 194);">Tables</h1>
+        <table>
+            <tr>
+                <td>Adarsh</td>
+                <td>Raj</td>
+            </tr>
+            <tr>
+                <td>Kishan</td>
+                <td>Srivastava</td>
+            </tr>
+        </table>
+
+        <h2 style="color: rgb(175, 29, 90);">Student Score</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student/Subject</th>
+                    <th>Maths</th>
+                    <th>Hindi</th>
+                    <th>Sceince</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Annu</td>
+                    <td>75</td>
+                    <td>60</td>
+                    <td>23</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Adarsh</td>
+                    <td>56</td>
+                    <td>78</td>
+                    <td>80</td>
+                    <td>87</td>
+                </tr>
+                <tr>
+                    <td>Kishan</td>
+                    <td>34</td>
+                    <td>67</td>
+                    <td>55</td>
+                    <td>76</td>
+                </tr>
+                <tr>
+                    <td>Shyam</td>
+                    <td>45</td>
+                    <td>64</td>
+                    <td>85</td>
+                    <td>83</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th>Total</th>
+                <th>210</th>
+                <th>269</th>
+                <th>243</th>
+                <th>286</th>
+            </tfoot>
+            <caption>Students score</caption>
+        </table>
+    </div>
+    <div>
+        <h1 style="color: cadetblue;">Rows span and Col span </h1>
+        <table>
+            <tr>
+                <td rowspan="2"></td>
+                <th colspan="2" style="text-align: center;">Avearge</th>
+                <th rowspan="2">Red eye</td>
+            </tr>
+            <tr>
+                
+                <th>height</th>
+                <th>weight</th>
+                
+            </tr>
+            <tr>
+                <th>Males</th>
+                <td>3.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>Females</th>
+                <td>1.9</td>
+                <td>0.004</td>
+                <td>43%</td>
+            </tr>
+            <caption>A test tables of Red eye</caption>
+        </table>
+    </div>
+</body>
+
+</html>

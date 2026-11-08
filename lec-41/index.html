@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Hello dosto</h1>
+    <div>
+        <form action="" id="form">
+
+            <label for="username">Name:</label>
+            <input type="text" id="username" placeholder="Name">
+            <span id="errormssg" style="color: red;"></span>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Email">
+            </div>
+
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" placeholder="Password">
+            </div>
+            <p id="passhint"  class="hidden">Must be be 8 characters</p>
+
+            <div>
+                <label for="bio">Bio:</label>
+                <textarea name="bio" id="bio" maxlength="150" placeholder="Enter your comment"></textarea>
+                <p id="charcount">150 characters left</p>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">I agree to the terms and condtions</label>
+            </div>
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
